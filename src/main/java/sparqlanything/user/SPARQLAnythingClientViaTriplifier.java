@@ -32,7 +32,7 @@ public class SPARQLAnythingClientViaTriplifier {
         DatasetGraph datasetGraph = builder.getDatasetGraph();
 
         // Use the Facade-X DatasetGraph via the Jena APIs
-        RDFDataMgr.write(System.out, datasetGraph, Lang.NQ);
+        RDFDataMgr.write(System.out, datasetGraph, Lang.TRIG);
 
 
     }
